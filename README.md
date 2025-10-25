@@ -5,5 +5,5 @@
 
 [Fabric]("https://github.com/fabricmc")
 
-un mod minecraft ajoutant le ruby comme materiau.
+un mod minecraft ajoutant le ruby comme materiau.</a>
 à prendre avec peu de serieux, il me serts de tutoriel pour apprendre à modder 
