@@ -21,9 +21,5 @@ public class ModedItems {
 
     public static void registerModItems() {
         RubyMod.LOGGER.info("Registering Moded Items for "+ RubyMod.MOD_ID);
-
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
-            entries.add(Ruby);
-        });
     }
 }

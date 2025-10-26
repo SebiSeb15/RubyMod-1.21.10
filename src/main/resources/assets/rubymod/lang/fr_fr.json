@@ -1,6 +1,8 @@
 {
   "item.rubymod.ruby": "Rubis",
   "block.rubymod.ruby_block": "Block de Rubis",
-  "itemgroup.rubymod.ruby_items": "items en rubis"
+  "itemgroup.rubymod.ruby_items": "items en rubis",
+  "block.rubymod.ruby_ore": "Minerais de rubis",
+  "block.rubymod.deepslate_ruby_ore": "minerais de rubis des abîmes"
 
 }
