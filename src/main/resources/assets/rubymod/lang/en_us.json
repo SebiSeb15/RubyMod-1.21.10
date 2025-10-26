@@ -1,4 +1,5 @@
 {
   "item.rubymod.ruby" : "Ruby",
-  "block.rubymod.ruby_block" : "Ruby block"
+  "block.rubymod.ruby_block" : "Ruby block",
+  "itemgroup.rubymod.ruby_items": "Ruby items"
 }

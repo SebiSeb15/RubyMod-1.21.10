@@ -1,4 +1,6 @@
 {
-  "item.testmod.ruby" : "Rubis",
-  "block.testmod.ruby_block" : "Block de Rubis"
+  "item.rubymod.ruby": "Rubis",
+  "block.rubymod.ruby_block": "Block de Rubis",
+  "itemgroup.rubymod.ruby_items": "items en rubis"
+
 }
