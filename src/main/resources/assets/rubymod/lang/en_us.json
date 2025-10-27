@@ -3,5 +3,7 @@
   "block.rubymod.ruby_block" : "Ruby block",
   "itemgroup.rubymod.ruby_items": "Ruby items",
   "block.rubymod.ruby_ore": "Ruby ore",
-  "block.rubymod.deepslate_ruby_ore": "Deepslate Ruby ore"
+  "block.rubymod.deepslate_ruby_ore": "Deepslate Ruby ore",
+  "block.rubymod.ruby_crystal": "Ruby Crystal",
+  "block.rubymod.ruby_lamp" : "Ruby Lamp"
 }

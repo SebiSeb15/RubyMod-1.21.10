@@ -1,12 +1,11 @@
 package net.sebiseb15.rubymod.block;
 
-import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
+import net.minecraft.block.Blocks;
 import net.minecraft.block.ExperienceDroppingBlock;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroups;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.registry.RegistryKey;
@@ -15,6 +14,8 @@ import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.math.intprovider.UniformIntProvider;
 import net.sebiseb15.rubymod.RubyMod;
+import net.sebiseb15.rubymod.block.custom.RubyCrystal;
+import net.sebiseb15.rubymod.block.custom.RubyLamp;
 
 import java.util.function.Function;
 
@@ -36,6 +37,14 @@ public class ModedBlocks {
             Block.Settings.create().strength(4.5f, 3f).requiresTool().sounds(BlockSoundGroup.DEEPSLATE),
             true);
 
+    public static final Block Ruby_Crystal = registerBlock("ruby_crystal",
+            RubyCrystal::new, AbstractBlock.Settings.create().strength(1.5f).sounds(BlockSoundGroup.AMETHYST_BLOCK).solidBlock(Blocks::never),
+            true);
+
+    public static final Block Ruby_Lamp = registerBlock("ruby_lamp",
+            RubyLamp::new, AbstractBlock.Settings.create().strength(1f).sounds(BlockSoundGroup.LANTERN).solidBlock(Blocks::never)
+                    .luminance(state -> state.get(RubyLamp.LIT) ? 15 : 0),
+            true);
 
     private static Block registerBlock(String name, Function<AbstractBlock.Settings, Block> blockFactory, AbstractBlock.Settings settings, boolean shouldRegisterItem) {
 

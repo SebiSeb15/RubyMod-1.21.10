@@ -21,6 +21,8 @@ public class ModItemsGroups {
                         entries.add(new ItemStack(ModedBlocks.Ruby_Block));
                         entries.add(new ItemStack(ModedBlocks.Ruby_Ore));
                         entries.add(new ItemStack(ModedBlocks.Deepslate_Ruby_Ore));
+                        entries.add(new ItemStack(ModedBlocks.Ruby_Crystal));
+                        entries.add(new ItemStack(ModedBlocks.Ruby_Lamp));
 
                     }
             ).build()

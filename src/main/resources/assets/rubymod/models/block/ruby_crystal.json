@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "rubymod:block/ruby_crystal_top",
+    "side": "rubymod:block/ruby_crystal_side"
+  }
+}
