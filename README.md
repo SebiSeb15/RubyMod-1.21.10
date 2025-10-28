@@ -3,7 +3,8 @@
 <img src="https://img.shields.io/badge/MC-1.21.10-brightgreen.svg" alt="Minecraft"/></a>
 </p>
 
-[Fabric](https://github.com/fabricmc)
+[Fabric](https://github.com/fabricmc)  
+[Kaupenjoe Tutorial](https://github.com/Tutorials-By-Kaupenjoe/Fabric-Tutorial-1.21.X)
 
 un mod minecraft ajoutant le ruby comme materiau.
 
