@@ -1,0 +1,9 @@
+{
+  "values": [
+    "rubymod:ruby_block",
+    "rubymod:ruby_crystal",
+    "rubymod:ruby_lamp",
+    "rubymod:ruby_ore",
+    "rubymod:deepslate_ruby_ore"
+  ]
+}

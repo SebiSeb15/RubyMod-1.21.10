@@ -1,0 +1,8 @@
+{
+  "xylophone-a": {
+    "subtitle": "sound.rubymod.xylophone_a",
+    "sounds": [
+      "rubymod:xylophone_a"
+    ]
+  }
+}

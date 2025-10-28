@@ -38,7 +38,7 @@ public class ModedBlocks {
             true);
 
     public static final Block Ruby_Crystal = registerBlock("ruby_crystal",
-            RubyCrystal::new, AbstractBlock.Settings.create().strength(1.5f).sounds(BlockSoundGroup.AMETHYST_BLOCK).solidBlock(Blocks::never),
+            RubyCrystal::new, AbstractBlock.Settings.create().strength(1.5f).sounds(BlockSoundGroup.AMETHYST_BLOCK).nonOpaque(),
             true);
 
     public static final Block Ruby_Lamp = registerBlock("ruby_lamp",

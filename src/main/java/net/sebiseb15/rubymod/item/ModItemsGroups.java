@@ -23,6 +23,11 @@ public class ModItemsGroups {
                         entries.add(new ItemStack(ModedBlocks.Deepslate_Ruby_Ore));
                         entries.add(new ItemStack(ModedBlocks.Ruby_Crystal));
                         entries.add(new ItemStack(ModedBlocks.Ruby_Lamp));
+                        entries.add(new ItemStack(ModedItems.Ruby_Sword));
+                        entries.add(new ItemStack(ModedItems.Ruby_Axe));
+                        entries.add(new ItemStack(ModedItems.Ruby_Pickaxe));
+                        entries.add(new ItemStack(ModedItems.Ruby_Shovel));
+                        entries.add(new ItemStack(ModedItems.Ruby_Hoe));
 
                     }
             ).build()
