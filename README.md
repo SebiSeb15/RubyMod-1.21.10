@@ -9,4 +9,4 @@ un mod minecraft ajoutant le ruby comme materiau.
 
 à prendre avec peu de serieux, il me serts de tutoriel pour apprendre à modder 
 
-<img width="1920" height="1080" alt="capture d'écran du jeu avec les ajouts" src="https://github.com/user-attachments/assets/5b8c6c91-3d68-41eb-92e2-782b7e7fba14" />
+<img width="1920" height="1080" alt="capture d'écran du jeu avec les ajouts" src="https://github.com/user-attachments/assets/4d6cf242-7f39-4bb6-a952-b34adda8da15" />
