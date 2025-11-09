@@ -4,7 +4,6 @@
 <p align="center">
   <a href="#RubyMod-1.21.10"><img src="https://img.shields.io/badge/MC-1.21.10-brightgreen.svg" alt="Minecraft Version"/></a>
   <a href="#RubyMod-1.21.10"><img src="https://img.shields.io/badge/Mod%20Loader-Fabric-blue" alt="Mod Loader"/></a>
-  <a href="#RubyMod-1.21.10"><img src="https://img.shields.io/badge/License-MIT-yellow" alt="License"/></a>
 </p>
 
 [Fabric](https://github.com/fabricmc)  
