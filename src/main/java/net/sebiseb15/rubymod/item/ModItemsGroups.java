@@ -28,6 +28,10 @@ public class ModItemsGroups {
                         entries.add(new ItemStack(ModedItems.Ruby_Pickaxe));
                         entries.add(new ItemStack(ModedItems.Ruby_Shovel));
                         entries.add(new ItemStack(ModedItems.Ruby_Hoe));
+                        entries.add(new ItemStack(ModedItems.Ruby_Helmet));
+                        entries.add(new ItemStack(ModedItems.Ruby_Chestplate));
+                        entries.add(new ItemStack(ModedItems.Ruby_Leggings));
+                        entries.add(new ItemStack(ModedItems.Ruby_Boots));
 
                     }
             ).build()

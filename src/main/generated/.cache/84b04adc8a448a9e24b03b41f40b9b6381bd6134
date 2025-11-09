@@ -1,0 +1,3 @@
+// 1.21.10	-999999999-01-01T00:00:00	RubyMod/Tags for minecraft:block
+6b1a96f28c4c4d50588ac5f390a5870cd83055bc data/minecraft/tags/block/mineable/pickaxe.json
+8b8913acf739f3e6825c4e13234136f70a2f4eda data/minecraft/tags/block/needs_iron_tool.json

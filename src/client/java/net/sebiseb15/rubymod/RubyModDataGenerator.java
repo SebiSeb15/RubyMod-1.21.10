@@ -19,5 +19,4 @@ public class RubyModDataGenerator implements DataGeneratorEntrypoint {
         pack.addProvider(ModRegistryDataGenerator::new);
 
     }
-
 }

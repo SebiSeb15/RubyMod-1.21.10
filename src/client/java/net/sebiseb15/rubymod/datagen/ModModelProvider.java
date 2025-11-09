@@ -10,6 +10,7 @@ import net.minecraft.util.collection.Pool;
 import net.sebiseb15.rubymod.block.ModedBlocks;
 import net.sebiseb15.rubymod.block.custom.RubyLamp;
 import net.sebiseb15.rubymod.item.ModedItems;
+import net.sebiseb15.rubymod.item.custom.ModedArmorMaterial;
 
 public class ModModelProvider extends FabricModelProvider {
     public ModModelProvider(FabricDataOutput output) {
@@ -42,6 +43,11 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModedItems.Ruby_Shovel, Models.HANDHELD);
         itemModelGenerator.register(ModedItems.Ruby_Axe, Models.HANDHELD);
         itemModelGenerator.register(ModedItems.Ruby_Hoe, Models.HANDHELD);
+
+        itemModelGenerator.registerArmor(ModedItems.Ruby_Helmet, ModedArmorMaterial.RUBY_KEY, ItemModelGenerator.HELMET_TRIM_ID_PREFIX, false);
+        itemModelGenerator.registerArmor(ModedItems.Ruby_Chestplate, ModedArmorMaterial.RUBY_KEY, ItemModelGenerator.CHESTPLATE_TRIM_ID_PREFIX, false);
+        itemModelGenerator.registerArmor(ModedItems.Ruby_Leggings, ModedArmorMaterial.RUBY_KEY, ItemModelGenerator.LEGGINGS_TRIM_ID_PREFIX, false);
+        itemModelGenerator.registerArmor(ModedItems.Ruby_Boots, ModedArmorMaterial.RUBY_KEY, ItemModelGenerator.BOOTS_TRIM_ID_PREFIX, false);
 
     }
 }

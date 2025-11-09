@@ -3,6 +3,7 @@ package net.sebiseb15.rubymod;
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.fabric.api.client.rendering.v1.BlockRenderLayerMap;
 import net.minecraft.client.render.BlockRenderLayer;
+import net.minecraft.client.render.RenderLayer;
 import net.sebiseb15.rubymod.block.ModedBlocks;
 
 public class RubyModClient implements ClientModInitializer {

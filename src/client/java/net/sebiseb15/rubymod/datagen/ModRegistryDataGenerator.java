@@ -16,7 +16,8 @@ public class ModRegistryDataGenerator extends FabricDynamicRegistryProvider {
     protected void configure(RegistryWrapper.WrapperLookup registries, Entries entries) {
         entries.addAll(registries.getOrThrow(RegistryKeys.TRIM_MATERIAL));
         entries.addAll(registries.getOrThrow(RegistryKeys.TRIM_PATTERN));
-        entries.addAll(registries.getOrThrow(RegistryKeys.ENCHANTMENT));
+        // Do not dump ENCHANTMENT via dynamic registries; enchantments are data‑driven and our custom effect codec
+        // isn't available to datagen runtime. This caused errors like "Unknown registry key in ... enchantment_effect_component_type: minecraft:hurt_by".
 
         entries.addAll(registries.getOrThrow(RegistryKeys.CONFIGURED_FEATURE));
         entries.addAll(registries.getOrThrow(RegistryKeys.PLACED_FEATURE));

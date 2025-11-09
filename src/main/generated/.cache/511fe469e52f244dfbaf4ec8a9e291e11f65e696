@@ -1,0 +1,6 @@
+// 1.21.10	-999999999-01-01T00:00:00	RubyMod/Block Loot Tables
+1b7a7e0968a49721bdd17d00b176db1d980d55d9 data/rubymod/loot_table/blocks/deepslate_ruby_ore.json
+9cc10874ea848545b497b5f7f83526c399d0ac07 data/rubymod/loot_table/blocks/ruby_block.json
+20ce371a151b10fcae4cc8498923ba4931561732 data/rubymod/loot_table/blocks/ruby_crystal.json
+4ac679a51dcc689212019ccd0360a233df3562d7 data/rubymod/loot_table/blocks/ruby_lamp.json
+a345e0712e08fa48731a0d994dc3c033a347dea8 data/rubymod/loot_table/blocks/ruby_ore.json

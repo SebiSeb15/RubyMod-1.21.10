@@ -1,0 +1,10 @@
+// 1.21.10	-999999999-01-01T00:00:00	RubyMod/Tags for minecraft:item
+ee2fb18c894a4131e68b871e0c1744bd0dc60a1d data/minecraft/tags/item/axes.json
+f34b690367ad0c90d22d86e383e8376bf6341f99 data/minecraft/tags/item/enchantable/armor.json
+7e0e316729743b7a239dc43b2506d5b5c436b627 data/minecraft/tags/item/hoes.json
+1c39f4ebe4c4c231ceb8817d5f093507f32aaa31 data/minecraft/tags/item/pickaxes.json
+1cdbe9a3bb63854e4a9d8f70858b7be8b885aa34 data/minecraft/tags/item/shovels.json
+240f2296f7b090274843796db00bc4ce491254a5 data/minecraft/tags/item/swords.json
+1b1a8649ae902e620e4716161949b0fbe79fa306 data/minecraft/tags/item/trim_materials.json
+f34b690367ad0c90d22d86e383e8376bf6341f99 data/minecraft/tags/item/trimmable_armor.json
+1b1a8649ae902e620e4716161949b0fbe79fa306 data/rubymod/tags/item/ruby_repair.json

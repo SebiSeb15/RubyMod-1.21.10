@@ -32,8 +32,17 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
         valueLookupBuilder(ItemTags.HOES)
                 .add(ModedItems.Ruby_Hoe);
 
-        //valueLookupBuilder(ItemTags.TRIMMABLE_ARMOR)
-          //      .add(ModItems.PINK_GARNET_HELMET)
+        valueLookupBuilder(ItemTags.ARMOR_ENCHANTABLE)
+                .add(ModedItems.Ruby_Helmet)
+                .add(ModedItems.Ruby_Chestplate)
+                .add(ModedItems.Ruby_Leggings)
+                .add(ModedItems.Ruby_Boots);
+
+        valueLookupBuilder(ItemTags.TRIMMABLE_ARMOR)
+                .add(ModedItems.Ruby_Helmet)
+                .add(ModedItems.Ruby_Chestplate)
+                .add(ModedItems.Ruby_Leggings)
+                .add(ModedItems.Ruby_Boots);
 
         valueLookupBuilder(ItemTags.TRIM_MATERIALS)
             .add(ModedItems.Ruby);

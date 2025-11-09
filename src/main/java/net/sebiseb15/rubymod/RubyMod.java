@@ -6,6 +6,7 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.sound.SoundEvent;
 import net.minecraft.util.Identifier;
+import net.sebiseb15.rubymod.Enchantment.ModedEnchantments;
 import net.sebiseb15.rubymod.block.ModedBlocks;
 import net.sebiseb15.rubymod.item.ModItemsGroups;
 import net.sebiseb15.rubymod.item.ModedItems;
@@ -22,6 +23,7 @@ public class RubyMod implements ModInitializer {
         ModedItems.registerModItems();
         ModedBlocks.registerModBlocks();
         ModItemsGroups.registerItemGroups();
+        ModedEnchantments.initialize();
         Registry.register(Registries.SOUND_EVENT, Identifier.of(MOD_ID, "xylophone_a"),
                 SoundEvent.of(Identifier.of(MOD_ID, "xylophone_a")));
 	}

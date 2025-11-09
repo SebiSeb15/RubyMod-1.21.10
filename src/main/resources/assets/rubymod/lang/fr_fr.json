@@ -6,6 +6,19 @@
   "block.rubymod.deepslate_ruby_ore": "minerais de rubis des abîmes",
   "block.rubymod.ruby_crystal" : "Cristal de rubis",
   "block.rubymod.ruby_lamp" : "Lampe de rubis",
-  "item.rubymod.ruby_axe" : "Hache de rubis",
-  "item.rubymod.ruby_pickaxe" : "pioche de rubis"
+
+  "item.rubymod.ruby_sword" : "épée en rubis",
+  "item.rubymod.ruby_axe" : "Hache en rubis",
+  "item.rubymod.ruby_pickaxe" : "Pioche en rubis",
+  "item.rubymod.ruby_shovel" : "Pelle en rubis",
+  "item.rubymod.ruby_hoe" : "Houe en rubis",
+
+  "item.rubymod.ruby_helmet" : "Casque de rubis",
+  "item.rubymod.ruby_chestplate" : "Plastron de rubis",
+  "item.rubymod.ruby_leggings" : "Jambières de rubis",
+  "item.rubymod.ruby_boots" : "Bottes de rubis",
+
+  "tag.rubymod.ruby_repair" : "repare le rubis",
+
+  "enchantment.rubymod.resonant": "Resonant"
 }
